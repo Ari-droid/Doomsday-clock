@@ -1,51 +1,864 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Analog Clock</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title >Doomsday Clock</title>
+        <link rel="stylesheet" href="Doomsday.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
         <link rel="stylesheet" href="style.css">
-
     </head>
-    <body>
-        <div class="clock-dial">
-            <div class="point"></div>
-            <div class="hour hour-1">1</div>
-            <div class="hour hour-2">2</div>
-            <div class="hour hour-3">3</div>
-            <div class="hour hour-4">4</div>
-            <div class="hour hour-5">5</div>
-            <div class="hour hour-6">6</div>
-            <div class="hour hour-7">7</div>
-            <div class="hour hour-8">8</div>
-            <div class="hour hour-9">9</div>
-            <div class="hour hour-10">10</div>
-            <div class="hour hour-11">11</div>
-            <div class="hour hour-12">12</div>
-            <div class="brand" style="color: firebrick;">COUNTDOWN INC.</div>
+    <body style="background-color:black; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color:whitesmoke">
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">
+        <img src="file:///C:/Users/Admin/Pictures/DoomsdayClock%20(4).png"
+        width="900"
+        height="300"
+
+        class="center"
+        >
+        </label>
+        <ul>
+            <li><a class="active" href="file:///C:/Users/Admin/Desktop/DoomsdayClock.html" target="_blank">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="file:///C:/Users/Admin/Desktop/Countdown%20Clock/index.html" target="_blank">Clock_Countdown</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </nav>
+    <section></section>
 
 
-            <div class="minute-hand-wrapper" id = "minute-hand">
-                <div class="minute-hand">
-                    <div class="hand"></div>
-                    <div class="arrow">V</div>
+
+        <p>
+            <script>
+            for(m=1;m<=14;m++)
+            {
+                document.write("<br>")
+            }
+            </script>
+        </p>
+
+        <h2 style="color:orangered">Origins of the Doomsday Clock</h2>
+            <p><b>
+                The Doomsday Clock is a symbol that represents the likelihood of a man-made global catastrophe, in the opinion of the members of the Bulletin of the Atomic Scientists.
+                Maintained since 1947, the clock is a metaphor for threats to humanity from unchecked scientific and technological advances. The clock was originally created as a response
+                to geopolitical insecurities and rising fear of nuclear war that could posibly lead to MAD(Mutually Assured Destruction). The clocks proximity to midnight determines the likelihood of impending doomsday
+                and global catastrophe. Initially, the clock was set to 11:53 pm in 1947, but in 1953, with the testing of thermonuclear devices, the clock reached 11:58 pm, the most ominous of its readings since inception.
+                By 1968 the clock moved back to 1948 due to the signing of the Strategic Arms Limitation Treaty(SALT 1) by the US and Soviet union. However, the countries then had a spike in tensions around 1984
+                with a failure to certify a second SALT agreement the clock moved to 11:57 pm. It remained there for a portion of the mid to late 1980s. In 1991 the clock moved all the way to 11:43 pm, the furthest from midnight it has ever been.
+                This was a result of successful SALT II accords in 1991 by the US and Soviet Union. In 2007, the Science and security board decided that the clock should represent the risk
+                of climate change and life science technological issues. In 2015, the clock moved back to 11:57 pm as a result of unchecked climate change, global nuclear weapons modernizations, 
+                and immense nuclear weapons arsenals. The clock then moved to 2 and a half minutes until midnight in 2017 landing at around 11:57:30s pm. Then in 2018 it reached 11:58 pm and remained there until now where it is currently
+                at 11:58:20s pm.<br>
+                <br>
+                <a href="https://en.wikipedia.org/wiki/Doomsday_Clock" target="_blank" style="color:rgb(233, 66, 0)">For more information on potential apocalyptic events click here</a>
+                </b>
+            </p>
+
+            <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Doomsday_Clock_graph.svg/768px-Doomsday_Clock_graph.svg.png" alt="">
+            <figcaption> Chart of doomsday clock proximity displayed in line graph</figcaption>
+        
+        </figure>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRftdFuHoLqrNPMPzE9im0QdJ90Dd4sCWBUrw&usqp=CAU" alt="">
+            
+
+        <p>
+            <script>
+            for(m=1;m<=5;m++)
+            {
+                document.write("<br>")
+            }
+            </script>
+        </p>
+
+
+     <body   id="timescape">           
+        <div class="title">
+            <h2 style="color: orangered;">The Countdown to DOOMSDAY</h2>
+        </div>
+        <div class="timeline">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="timeline-container">
+                    <div class="timeline-end">
+                    <p>Launch
+                        (1940s)
+                        >
+                    </p>
+                    </div>
+                    <div class="timeline-continue">
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            1947
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-gift"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1947: It is 7 minutes to midnight</h3>
+                            <p>The founding of the doomsday clock</p>
+                            <a href="https://www.archives.gov/files/calendar/know-your-records/handouts-presentations/april19-rushay-presentation.pdf" target="_blank">1947</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            1949
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-gift"></i>
+                            </div>
+                            <div class="timeline-text">
+                                <h3>1949: It is 3 minutes to midnight</h3>
+                                <p><a href="https://thebulletin.org/sites/default/files/1949%20Clock%20Statement%201.pdf" target="_blank">1949</a></p>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-business-time"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            1949
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                        <div class="timeline-year">
+                            <p>1950s</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            1953
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-briefcase"></i>
+                            </div>
+                            <div class="timeline-text">
+                                <h3>1953: It is 2 minutes to midnight</h3>
+                                <p><a href="https://thebulletin.org/sites/default/files/1953%20Clock%20Statement%201.pdf" target="_blank">1953</a></p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-12">
+                        <div class="timeline-year">
+                            <p>1960s</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1960: It is 7 minutes to midnight</h3>
+                            <p><a href="https://thebulletin.org/sites/default/files/1960%20Clock%20Statement%201.pdf" target="_blank">1960</a></p>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            1960
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            1963
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1963: It is 12 minutes to midnight</h3>
+                            <p>The furthest from midnight the clock has ever been since inception</p>
+                            <p><a href="https://thebulletin.org/sites/default/files/1963%20Clock%20Statement.pdf" target="_blank">1963</a></p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            1963
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-home"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3> 1968: It is 7 minutes to midnight<br></h3>
+                            <a href="https://thebulletin.org/sites/default/files/1968%20Clock%20Statement.pdf" target="_blank">1968</a>
+                            
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-home"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            1968
+                        </p>
+                        </div>
+                    </div>
+
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            1963
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1969: It is 10 minutes to midnight</h3>
+                            <a href="https://thebulletin.org/sites/default/files/1969%20Clock%20Statement%201.pdf" target="_blank">1969</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-12">
+                        <div class="timeline-year">
+                            <p>1970s</p>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1972: It is 12 minutes to midnight</h3>
+                            <a href="https://thebulletin.org/sites/default/files/1972%20Clock%20Statement.pdf" target="_blank">1972</a>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            1972
+                        </p>
+                        </div>
+                    </div>
+
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            1974
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1974: It is 9 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/1974%20Clock%20Statement.pdf" target="_blank">1974</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                        <div class="timeline-year">
+                            <p>1980s</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1980: It is 7 minutes to midnight<br>
+                                <a href="https://thebulletin.org/sites/default/files/1980%20Clock%20Statement.pdf" target="_blank">1980</a>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            1980
+                        </p>
+                        </div>
+                    </div>
+
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            1981
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1981: It is 4 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/1981%20Clock%20Statement.pdf" target="_blank">1981</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3> 1984: It is 3 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/1984%20Clock%20Statement.pdf" target="_blank">1984</a>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            1984
+                        </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            1988
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1988: It is 6 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/1988%20Clock%20Statement.pdf" target="_blank">1988</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                        <div class="timeline-year">
+                            <p>1990s</p>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1990: It is 10 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/1990%20Clock%20Statement.pdf" target="_blank">1990</a>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            1990
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            1991
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1991: It is 17 minutes to midnight<br>
+                                <a href="https://thebulletin.org/sites/default/files/1991%20Clock%20Statement.pdf" target="_blank">1991</a>
+                        
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1995: It is 14 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/1995%20Clock%20Statement.pdf" target="_blank">1995</a>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            1995
+                        </p>
+                        </div>
+                    </div>
+
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            1998
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>1998: It is 9 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/1998%20Clock%20Statement.pdf" target="_blank">1998</a>
+                        
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                        <div class="timeline-year">
+                            <p>2000s</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>2002: It is 7 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/2002%20Clock%20Statement.pdf" target="_blank">2002</a>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            2002
+                        </p>
+                        </div>
+                    </div>
+
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            2007
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>2007: It is 5 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/2007%20Clock%20Statement.pdf" target="_blank">2007</a>
+                        
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                        <div class="timeline-year">
+                            <p>2010s</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>2010: It is 6 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/2010%20Clock%20Statement.pdf" target="_blank">2010</a>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            2010
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            2012
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>2012: It is 5 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/2012%20Clock%20Statement.pdf" target="_blank">2012</a>
+                        
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>2015: It is 3 minutes to midnight<br>
+                                <a href="https://thebulletin.org/sites/default/files/2015%20Clock%20Statement.pdf" target="_blank">2015</a>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            2015
+                        </p>
+                        </div>
+                    </div>
+                    
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            2016
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>2016: It is still 3 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/2016%20doomsday%20clock%20statement%20-%20final%5B5%5D.pdf" target="_blank">2016</a>
+                        
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>2017: It is 2 and a half minutes to midnight</h3>
+                                <a href="https://thebulletin.org/sites/default/files/Final%202017%20Clock%20Statement.pdf" target="_blank">2017</a>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            2017
+                        </p>
+                        </div>
+                    </div>
+
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            2018
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>2018: It is 2 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/doomsday-clock/2018-doomsday-clock-statement/" target="_blank">2018</a>
+                        
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>2019: It is 2 minutes to midnight</h3>
+                                <a href="https://thebulletin.org/doomsday-clock/2019-doomsday-clock-statement/" target="_blank">2019</a>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            2019
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                        <div class="timeline-year">
+                            <p>2020s</p>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row timeline-right">
+                        <div class="col-md-6">
+                        <p class="timeline-date">
+                            2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                            <i class="fa fa-running"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>2020: It is 100 seconds to midnight</h3>
+                                <a href="https://thebulletin.org/doomsday-clock/2020-doomsday-clock-statement/" target="_blank">2020</a>
+                        
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row timeline-left">
+                        <div class="col-md-6 d-md-none d-block">
+                        <p class="timeline-date">
+                            01 Sep 2020
+                        </p>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="timeline-box">
+                            <div class="timeline-icon d-md-none d-block">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="timeline-text">
+                            <h3>2021:  It is still 100 seconds to midnight</h3>
+                                <a href="https://thebulletin.org/doomsday-clock/2021-doomsday-clock-statement/" target="_blank">2021</a>
+                            </div>
+                            <div class="timeline-icon d-md-block d-none">
+                            <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6 d-md-block d-none">
+                        <p class="timeline-date">
+                            2021
+                        </p>
+                        </div>
+                    </div>
+
+
+
+                    </div>
+                    
+                    <div class="timeline-start">
+                    <p>Present Day</p>
+                    </div>
+
+                    <div class="timeline-launch">
+                    <div class="timeline-box">
+                        <div class="timeline-text">
+                        <h3>2022: At doom's doorstep, It is 100 seconds to midnight </h3>
+                        <a href="https://www.rescue.org/article/top-10-crises-world-cant-ignore-2022" target="_blank" style="color: ;"> World events that lead up to this point </a>
+
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
                 </div>
             </div>
-
-            <div class="hour-hand-wrapper" id="hour-hand">
-                <div class="hour-hand">
-                    <div class="hand"></div>
-                    <div class="arrow">V</div>
-                </div>
-            </div>
-
-            <div class="second-hand-wrapper" id="second-hand">
-                <div class="second-hand">
-                    <div class="hand"></div>
-                </div>
             </div>
         </div>
-        <script src="logic.js"></script>
 
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+     </body>
     </body>
 </html>
